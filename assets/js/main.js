@@ -61,10 +61,10 @@ const app = {
       image: "./assets/img/roi-nang-cai-ly.jpeg"
     },
     {
-      name: "Không Bằng",
-      singer: "Rin music - Na",
-      path: "./assets/music/khong-bang.mp3",
-      image: "./assets/img/khong-bang.jpeg"
+      name: "Xin Má Rước Dâu",
+      singer: "Diệu Kiên",
+      path: "./assets/music/xin-ma-ruoc-dau.mp3",
+      image: "./assets/img/xin-ma-ruoc-dau.webp"
     },
     {
       name: "Đừng Chờ Anh Nữa",
