@@ -67,6 +67,12 @@ const app = {
       image: "./assets/img/xin-ma-ruoc-dau.webp"
     },
     {
+      name: "Kỳ Vọng Sai Lầm",
+      singer: "Tăng Phúc",
+      path: "./assets/music/ky-vong-sai-lam.mp3",
+      image: "./assets/img/ky-vong-sai-lam.jpeg"
+    },
+    {
       name: "Đừng Chờ Anh Nữa",
       singer: "Tăng Phúc",
       path: "./assets/music/dung-cho-anh-nua.mp3",
@@ -126,6 +132,7 @@ const app = {
                         <div class="song ${
                           index === this.currentIndex ? "active" : ""
                         }" data-index="${index}">
+                            <div class="index-song">${index+1}</div>
                             <div class="thumb"
                                 style="background-image: url('${song.image}')">
                             </div>

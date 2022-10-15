@@ -20,10 +20,15 @@ html {
 
 .store-name {
     background-color: #810505;
-    border-radius: 10px;
+    border-radius: 50px;
     margin-bottom: 10px;
     color: #fff;
     box-shadow: 0px 5px 5px red;
+}
+
+.fa-shop {
+    color: #4ac3bd;
+    margin-left: 15px;
 }
   
 .player {
@@ -136,6 +141,34 @@ header h2 {
     background-color: var(--primary-color);
 }
 
+.btn-random,
+.btn-repeat {
+    position: relative;
+}
+
+.btn-repeat::before {
+    position: absolute;
+    content: "Lặp lại";
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    top: -16px;
+    left: 0;
+    text-align: center;
+    color: black;
+}
+
+.btn-random::before {
+    position: absolute;
+    content: "Ngẫu Nhiên";
+    width: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    top: -16px;
+    left: -8px;
+    color: black;
+}
+
 .audio-time {
     display: flex;
     justify-content: space-between;
@@ -174,7 +207,7 @@ header h2 {
   
 /* PLAYLIST */
 .playlist {
-    margin-top: 458px;
+    margin-top: 460px;
     padding: 12px;
     box-shadow: 0 0 10px var(--primary-color);
 }
@@ -188,6 +221,12 @@ header h2 {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.index-song {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 4px;
+}
   
 .song.active {
     background-color: var(--primary-color);
@@ -198,6 +237,7 @@ header h2 {
 }
   
 .song.active .option,
+.song.active .index-song,
   .song.active .author,
   .song.active .title {
     color: #fff;
