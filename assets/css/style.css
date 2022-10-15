@@ -17,6 +17,14 @@ html {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+.store-name {
+    background-color: #333;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    box-shadow: 0px 5px 5px red;
+}
   
 .player {
     position: relative;
@@ -93,6 +101,11 @@ header h2 {
 }
   
 .control .btn {
+    width: 56px;
+    height: 56px;
+    line-height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
     color: rgb(235, 231, 231);
     padding: 18px;
     font-size: 18px;
@@ -157,7 +170,7 @@ header h2 {
   
 /* PLAYLIST */
 .playlist {
-    margin-top: 396px;
+    margin-top: 455px;
     padding: 12px;
     box-shadow: 0 0 10px var(--primary-color);
 }
