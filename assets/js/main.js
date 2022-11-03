@@ -31,6 +31,12 @@ const app = {
   config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
     {
+      name: "Đơn Giản Anh Yêu Em",
+      singer: "Hồ Quốc Việt",
+      path: "./assets/music/don-gian-anh-yeu-em.mp3",
+      image: "./assets/img/don-gian-anh-yeu-em.webp"
+    },
+    {
       name: "Yêu Nhau Nhé Bạn Thân",
       singer: "Phạm Đình Thái Ngân",
       path: "./assets/music/Yeu-Nhau-Nhe-Ban-Than.mp3",
